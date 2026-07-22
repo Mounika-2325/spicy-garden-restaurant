@@ -91,36 +91,47 @@ nav{
 .chef-content p{
     line-height:1.6;
 }
-.achivement-cards{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    gap:20px;
-}
-.achievement-section{
+.achievements-section{
     width:90%;
     margin:30px auto;
     text-align:center;
 }
-.achievement-section h2{
+.achievements-section h2{
     color:#8B0000;
-    margin-bottom:20px;
+    font-size:32px;
+    margin-bottom:25px;
+}
+.achievements-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+.achievement-card{
+    width:220px;
+    background:#fff;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    transition:0.3s;
     text-align:center;
 }
-.achievement-section{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    gap:20px;
+.achievement-card:hover{
+    transform:translateY(-8px);
 }
-.achievement-section h2{
-    width:100%;
+.achievement-card h1{
+    font-size:50px;
+    margin-bottom:10px;
 }
-.achivement-img{
-    display:flex;
-    flex-direction:row;
-    gap:10px;
+.achievement-card h3{
+    font-size:30px;
+    color:#d35400;
+    margin-bottom:10px;
+}
+.achievement-card p{
+    font-size:16px;
+    color:#555;
 }
 .card{
     width:140px;
